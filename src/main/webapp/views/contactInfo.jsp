@@ -17,8 +17,8 @@
       <h2>Save Contact</h2>
  <form:form action="saveContact" modelAttribute="contact" method="POST">
  <table border="5" style="color:maroon;" >
- 	<tr>
- 		<form:hidden path="contactId"/>
+ 	 <tr>
+ 		 <form:hidden path="contactId"/>
  		<td>Contact Name :</td>
  		<td><form:input path="contactName"/> </td> 	<!-- path should be match with property of model class Contact -->
  	</tr>

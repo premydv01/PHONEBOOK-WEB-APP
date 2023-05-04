@@ -64,11 +64,7 @@ public class ContactServiceImpl implements ContactService {
 		return null;
 	}
 
-	@Override
-	public boolean updateContact(Contact contact) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+
 
 	@Override
 	public boolean deleteContact(Integer id) {
