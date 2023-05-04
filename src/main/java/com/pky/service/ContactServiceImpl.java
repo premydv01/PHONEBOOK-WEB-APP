@@ -63,9 +63,7 @@ public class ContactServiceImpl implements ContactService {
 	}
 		return null;
 	}
-
-
-
+	
 	@Override
 	public boolean deleteContact(Integer id) {
 		repo.deleteById(id);
